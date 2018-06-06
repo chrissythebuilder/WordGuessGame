@@ -7,12 +7,41 @@
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
     <title>Word Guess Game</title>
 </head>
 <body>
     
-    
+    <h1> 00s Music Showdown </h1>
+    <img src="" class="image">
+
+    <div id = "guess">
+        <p> Guess what letter I'm thinking of </p>
+        <div id = "blank"> _ </div>
+    </div>
+
+    <!-- When the player wins, increase and restart the game without page refresh -->
+    <div id="win">
+        <p> Wins: </p>
+        <div id = "wintracker"> </div>
+    </div>
+
+    <!-- When the player loses, increase and restart the game without page refresh -->
+    <div id="losses">
+        <p> Losses: </p>
+        <div id = "losetracker"> </div>
+    </div>
+
+    <div id = "tries">
+        <p> Guesses Left: </p>
+        <div id = "guesstracker"> </div>
+    </div>
+
+
+    <!-- specific letters typed, refresh when user wins/loses -->
+    <div id = "letters"> 
+        <p> Your guesses so far:  </p>
+    </div>
 
 </body>
 </html>
