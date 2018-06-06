@@ -19,10 +19,17 @@ h2 {
 
 #blank {
     margin-bottom: 20px;
+    font-size: 125%;
+    font-weight: 800;
 }
 
 #win {
     margin-bottom: 50px;
+}
+
+#char {
+    font-size: 125%;
+    font-weight: 800;
 }
 
 p {
@@ -30,3 +37,4 @@ p {
     margin-left: 50px;
 
 }
+
